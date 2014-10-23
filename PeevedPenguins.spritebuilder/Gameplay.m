@@ -10,7 +10,7 @@
 
 @implementation Gameplay{
     CCPhysicsNode *_physicsNode;
-    CCNode *_catapultArm;
+    //CCNode *_catapultArm;
 }
 
 -(void) didLoadFromCCB{
@@ -29,6 +29,7 @@
     //loads the Penguin.ccb we have set up in Spritebuilder
     CCNode * penguin = [CCBReader load:@"Penguin"];
     
+    /*
     // position the penguin at the bowl of the catapult
     penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     
@@ -40,7 +41,8 @@
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
     
-    [penguin.physicsBody applyForce:force];
+    [penguin.physicsBody applyForce:force];*/
+    
 }
 
 @end
