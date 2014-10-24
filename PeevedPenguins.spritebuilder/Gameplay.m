@@ -20,6 +20,10 @@
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
     
+    CCNode *_currentPenguin;
+    CCPhysicsJoint *_penguinCatapultJoint;
+    
+    
 }
 
 -(void) didLoadFromCCB{
