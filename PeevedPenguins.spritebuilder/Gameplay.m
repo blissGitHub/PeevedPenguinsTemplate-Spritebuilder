@@ -54,7 +54,7 @@
     
     //ensure followed object is in visible are when starting
     //self.position = ccp(0, 0);
-    _contentNode.position = ccp(5, 0);
+    _contentNode.position = ccp(0, 0);
     CCActionFollow * follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     //[self runAction:follow];
     //[_contentNode runAction:follow];
