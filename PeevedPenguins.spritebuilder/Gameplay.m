@@ -59,7 +59,7 @@
     //[self runAction:follow];
     //[_contentNode runAction:follow];
     
-    CCActionMoveBy *moveBy = [CCActionMoveBy actionWithDuration:5 position:ccp(100, 100)];
+    CCActionMoveBy *moveBy = [CCActionMoveBy actionWithDuration:5 position:ccp(5, 5)];
     [_contentNode runAction:moveBy];
     
 }
