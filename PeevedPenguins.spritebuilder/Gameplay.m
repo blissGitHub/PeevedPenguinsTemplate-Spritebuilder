@@ -14,11 +14,14 @@
     CCNode *_levelNode;
     
     CCNode *_contentNode;
+    
+    CCNode * _pullbackNode;
+    
 }
 
 -(void) didLoadFromCCB{
     
-    //_physicsNode.debugDraw = TRUE;
+    _physicsNode.debugDraw = TRUE;
     
     //tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
