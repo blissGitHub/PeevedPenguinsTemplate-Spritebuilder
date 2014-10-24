@@ -57,7 +57,7 @@
     //_contentNode.position = ccp(0, 0);
     //_contentNode.position = ccp(100, 0);
     
-    _contentNode.positionType = CCPositionTypePoints;
+    //_contentNode.positionType = CCPositionTypePoints;
     CCActionFollow * follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     //[self runAction:follow];
     [_contentNode runAction:follow];
