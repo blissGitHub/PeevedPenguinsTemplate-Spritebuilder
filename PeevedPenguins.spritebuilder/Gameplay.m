@@ -57,7 +57,10 @@
     //_contentNode.position = ccp(0, 0);
     CCActionFollow * follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     //[self runAction:follow];
-    [_contentNode runAction:follow];
+    //[_contentNode runAction:follow];
+    
+    CCActionMoveBy *moveBy = [CCActionMoveBy actionWithDuration:5 position:ccp(100, 100)];
+    [_contentNode runAction:moveBy];
     
 }
 
