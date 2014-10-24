@@ -55,7 +55,7 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>223.38665771484375</real>
+						<real>225.14768981933594</real>
 						<real>104.34970092773438</real>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -372,8 +372,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -722,8 +720,12 @@
 											<real>0.0</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>92</real>
+											<real>5.4200801849365234</real>
+											<real>47.123619079589844</real>
+										</array>
+										<array>
+											<real>82.313980102539062</real>
+											<real>74.505622863769531</real>
 										</array>
 										<array>
 											<real>210.30462646484375</real>
@@ -746,8 +748,12 @@
 												<real>60.179920196533203</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>92</real>
+												<real>82.313980102539062</real>
+												<real>74.505622863769531</real>
+											</array>
+											<array>
+												<real>5.4200801849365234</real>
+												<real>47.123619079589844</real>
 											</array>
 											<array>
 												<real>0.0</real>
@@ -773,7 +779,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>249.89799499511719</real>
+											<real>254.30059814453125</real>
 											<real>88.238967895507812</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -829,6 +835,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -927,7 +935,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>239.47068786621094</real>
+											<real>241.23171997070312</real>
 											<real>194.80107116699219</real>
 											<integer>0</integer>
 											<integer>0</integer>
