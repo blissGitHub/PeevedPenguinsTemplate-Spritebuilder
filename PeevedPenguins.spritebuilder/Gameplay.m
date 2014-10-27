@@ -141,6 +141,8 @@ static const float MIN_SPEED = 5.f;
     // whenever touches move, update the position of the mouseJointNode to the touch position
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     _mouseJointNode.position = touchLocation;
+    CCLOG(@"%f %f", touchLocation.x, touchLocation.y);
+    
     
 }
 
